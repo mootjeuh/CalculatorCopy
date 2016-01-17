@@ -1,0 +1,9 @@
+Package: com.mootjeuh.calculatorcopy
+Name: CalculatorCopy
+Depends: mobilesubstrate
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Shortcut to copy last result from Calculator app
+Maintainer: Mohamed Marbouh
+Author: Mohamed Marbouh
+Section: Tweaks
