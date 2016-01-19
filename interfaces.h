@@ -36,6 +36,7 @@ typedef enum : NSUInteger {
 @interface SBApplicationShortcutMenuItemView : UIView
 
 @property(retain, nonatomic) UIImageView *iconView;
+@property(retain, nonatomic) SBSApplicationShortcutItem *shortcutItem;
 
 - (void)_setupViewsWithIcon:(UIImage*)icon title:(NSString*)title subtitle:(NSString*)subtitle;
 
