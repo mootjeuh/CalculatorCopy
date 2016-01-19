@@ -25,8 +25,6 @@ typedef enum : NSUInteger {
 @interface SBSApplicationShortcutItem : NSObject
 
 @property(nonatomic) SBSApplicationShortcutActivation activationMode;
-@property(nonatomic, copy) NSString *localizedSubtitle;
-@property(nonatomic, copy) NSString *localizedTitle;
 @property(nonatomic, copy) NSString *type;
 
 + (instancetype)staticShortcutItemWithDictionary:(NSDictionary*)arg1 localizationHandler:(NSString* (^)(NSString*, NSString*))arg2;
@@ -35,10 +33,7 @@ typedef enum : NSUInteger {
 
 @interface SBApplicationShortcutMenuItemView : UIView
 
-@property(retain, nonatomic) UIImageView *iconView;
 @property(retain, nonatomic) SBSApplicationShortcutItem *shortcutItem;
-
-- (void)_setupViewsWithIcon:(UIImage*)icon title:(NSString*)title subtitle:(NSString*)subtitle;
 
 @end
 
