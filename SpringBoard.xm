@@ -30,7 +30,7 @@
 - (id)initWithShortcutItem:(SBSApplicationShortcutItem*)item menuPosition:(int)arg2 orientation:(int)arg3 application:(id)arg4 assetManagerProvider:(id)arg5 monogrammerProvider:(id)arg6 options:(unsigned)arg7
 {
 	if([item.type isEqualToString:@"com.mootjeuh.calculator.shortcut.copyLastResult"]) {
-		return %orig(item, arg2, arg3, arg4, arg5, arg6, 0);;
+		return %orig(item, arg2, arg3, arg4, arg5, arg6, 0);
 	} else {
 		return %orig;
 	}
